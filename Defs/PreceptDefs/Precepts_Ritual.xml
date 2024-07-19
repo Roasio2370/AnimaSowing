@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<PreceptDef>
+    <defName>AnimaTreeSowingRitual</defName>
+    <label>anima tree sowing</label>
+    <description>One person with a minimun level of psylink can turn this building in a full anima tree.</description>
+    <issue>Ritual</issue>
+    <preceptClass>Precept_Ritual</preceptClass>
+    <visible>false</visible>
+    <classic>true</classic>
+    <countsTowardsPreceptLimit>false</countsTowardsPreceptLimit>
+    <selectionWeight>1.0</selectionWeight>
+    <ritualPatternBase>AnimaTreeSowing</ritualPatternBase>
+    <iconPath>UI/Icons/Rituals/AnimaTreeLinking</iconPath>
+    <usesIdeoVisualEffects>false</usesIdeoVisualEffects>
+    <mergeRitualGizmosFromAllIdeos>true</mergeRitualGizmosFromAllIdeos>
+    <useRepeatPenalty>false</useRepeatPenalty>
+    <showRitualFloatMenuOption>false</showRitualFloatMenuOption>
+</PreceptDef>
+
+</Defs>
