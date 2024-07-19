@@ -1,1 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
 
+<BeginAnimaTreeSowingRitualFloatMenu>Comenzar ritual para sembrar arbol ánima</BeginAnimaTreeSowingRitualFloatMenu>
+<BeginAnimaSowingRitualNeedFertility>Fertilidad insuficiente.</BeginAnimaSowingRitualNeedFertility>
+<BeginLinkingRitualRequiresPsylinkLevel>Nivel de psicoenlace insuficiente.</BeginLinkingRitualRequiresPsylinkLevel>
+<AnimaSowingExplanationBase>Cualquier adulto con el nivel de psicoenlace y el tipo de enfoque necesarios puede comenzar el ritual.</AnimaSowingExplanationBase>
+<RitualTargetNoPawnsWithNeededFocus>No hay nadie con psicofoco {0}.</RitualTargetNoPawnsWithNeededFocus>
+<RitualTargetNoPawnsWithNeededPsyLevel>No hay nadie con un nivel de psicoenlace de al menos {0}.</RitualTargetNoPawnsWithNeededPsyLevel>
+<RitualTargetAnimaSowingNeedFertility>El objeto semilla necesita terreno con al menos {0}% de fertilidad.</RitualTargetAnimaSowingNeedFertility>
+<RitualTargetAnimaSowingRitualInfo>Objeto seleccionado</RitualTargetAnimaSowingRitualInfo>
+<LetterTextSowingRitualCompleted>{0} completó el ritual de siembra de arbol ánima a partir de {1}.</LetterTextSowingRitualCompleted>
+<LetterLabelAnimaTreeSowingRitualCompleted>Ritual de siembra completo.</LetterLabelAnimaTreeSowingRitualCompleted>
+<AnimaSowingMessageRitualRoleMustHaveFocus>Necesita psicofoco {0}.</AnimaSowingMessageRitualRoleMustHaveFocus>
+<AnimaSowingMessageRitualRoleNeedPsyLevel>Necesita psicoenlace de al menos {0}.</AnimaSowingMessageRitualRoleNeedPsyLevel>
+
+</LanguageData>
