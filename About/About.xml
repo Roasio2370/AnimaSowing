@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <packageId>Roasio.AnimaSowing</packageId>
+    <name>Anima Sowing</name>
+    <author>Roasio</author>
+    <description>This mod allows you to plant your own anima tree wherever you want, at a high cost of course.</description>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <modVersion IgnoreIfNoMatchingField="true">1.0</modVersion>
+    <modDependencies>
+        <li>
+            <packageId>Ludeon.RimWorld.Royalty</packageId>
+            <displayName>Royalty DLC</displayName>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>Ludeon.RimWorld.Royalty</li>
+    </loadAfter>
+</ModMetaData>
