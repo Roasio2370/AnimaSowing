@@ -1,1 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
 
+<RitualBehaviorDef>
+    <defName>AnimaTreeSowing</defName>
+    <durationTicks>15000</durationTicks>
+    <workerClass>Roasio.AnimaSowing.RitualBehaviorWorker_AnimaSowing</workerClass>
+    <roles>
+      <li Class="Roasio.AnimaSowing.RitualRoleAnimaFarmer">
+        <label>linker</label>
+        <id>organizer</id>
+        <required>true</required>
+        <maxCount>1</maxCount>
+        <defaultForSelectedColonist>true</defaultForSelectedColonist>
+        <noCandidatesGizmoDesc>Need a colonist with the natural meditation focus type who is avobe de minimun psylink level and not psychically deaf.</noCandidatesGizmoDesc>
+        <allowChild>false</allowChild>
+        <customChildDisallowMessage>Only adults can create an anima tree.</customChildDisallowMessage>
+      </li>
+    </roles>
+    <spectatorFilter Class="RitualSpectatorFilter_NatureFocus">
+      <description>Must have natural focus type.</description>
+    </spectatorFilter>
+    <spectatorsLabel>Participants</spectatorsLabel>
+    <spectatorGerund>participate</spectatorGerund>
+    <stages>
+      <li Class="RitualStage_AnimaTreeLinking">
+        <defaultDuty>LinkWithAnimaTreeSecondary</defaultDuty>
+        <endTriggers>
+          <li Class="StageEndTrigger_DurationPercentage">
+            <percentage>1</percentage>
+          </li>
+        </endTriggers>
+        <spectateDistanceOverride>3~4</spectateDistanceOverride>
+        <roleBehaviors>
+          <li>
+            <roleId>organizer</roleId>
+            <dutyDef>AnimaSowing</dutyDef>
+            <customPositions>
+              <li Class="Roasio.AnimaSowing.RitualPosition_AnimusStoneRitualSpot" />
+            </customPositions>
+          </li>
+        </roleBehaviors>
+      </li>
+    </stages>
+  </RitualBehaviorDef>
+
+</Defs>
