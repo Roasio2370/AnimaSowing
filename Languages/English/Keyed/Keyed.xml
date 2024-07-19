@@ -1,1 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
 
+<BeginAnimaTreeSowingRitualFloatMenu>Begin anima tree sowing ritual</BeginAnimaTreeSowingRitualFloatMenu>
+<BeginAnimaSowingRitualNeedFertility>Not enough fertility</BeginAnimaSowingRitualNeedFertility>
+<BeginLinkingRitualRequiresPsylinkLevel>Not enough psylink level</BeginLinkingRitualRequiresPsylinkLevel>
+<AnimaSowingExplanationBase>Any adult with the needed psylink level and focus can perform this ritual.</AnimaSowingExplanationBase>
+<RitualTargetNoPawnsWithNeededFocus>There is no pawn with {0} focus</RitualTargetNoPawnsWithNeededFocus>
+<RitualTargetNoPawnsWithNeededPsyLevel>There is no pawn with at least {0} psylink level</RitualTargetNoPawnsWithNeededPsyLevel>
+<RitualTargetAnimaSowingNeedFertility>The seed object needs to be in a tile with {0}% fertility</RitualTargetAnimaSowingNeedFertility>
+<RitualTargetAnimaSowingRitualInfo>Selected object</RitualTargetAnimaSowingRitualInfo>
+<LetterTextSowingRitualCompleted>{0} has completed the sowing ritual with the {1}.</LetterTextSowingRitualCompleted>
+<LetterLabelAnimaTreeSowingRitualCompleted>Sowing ritual complete.</LetterLabelAnimaTreeSowingRitualCompleted>
+<AnimaSowingMessageRitualRoleMustHaveFocus>Needs to have {0} focus.</AnimaSowingMessageRitualRoleMustHaveFocus>
+<AnimaSowingMessageRitualRoleNeedPsyLevel>need at least {0} psylink level.</AnimaSowingMessageRitualRoleNeedPsyLevel>
+
+</LanguageData>
