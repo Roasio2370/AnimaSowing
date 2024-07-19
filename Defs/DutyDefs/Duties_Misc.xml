@@ -1,1 +1,15 @@
+<?sml version="1.0" encoding="utf-8"?>
+<Defs>
 
+<DutyDef>
+    <defName>AnimaSowing</defName>
+    <socialModeMax>Off</socialModeMax>
+    <thinkNode Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="Roasio.AnimaSowing.JobGiver_AnimaSowing">
+        </li>
+      </subNodes>
+    </thinkNode>
+  </DutyDef>
+
+</Defs>
