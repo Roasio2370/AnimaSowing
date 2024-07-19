@@ -1,1 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
 
+<JobDef>
+    <defName>SowAnimaTree</defName>
+    <driverClass>Roasio.AnimaSowing.JobDriver_SowAnimaTree</driverClass>
+    <reportString>Sowing anima tree from TargetA</reportString>
+    <neverShowWeapon>true</neverShowWeapon>
+  </JobDef>
+
+</Defs>
