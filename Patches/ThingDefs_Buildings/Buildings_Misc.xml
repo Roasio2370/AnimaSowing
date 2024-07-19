@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<Operation Class="PatchOperationAdd">
+  <xpath>Defs/ThingDef[defName="AnimusStone"]/comps</xpath>
+  <value>
+    <li Class="Roasio.AnimaSowing.CompProperties_AnimaSowable">
+        <neededPsyLevel>1</neededPsyLevel>
+        <preceptDef>AnimaTreeSowingRitual</preceptDef>
+        <requiredFocusDef>Natural</requiredFocusDef>
+    </li>
+  </value>
+</Operation>
+
+</Patch>
