@@ -1,1 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
 
+<RitualPatternDef>
+    <defName>AnimaTreeSowing</defName>
+    <ritualOnlyForIdeoMembers>false</ritualOnlyForIdeoMembers>
+    <ritualBehavior>AnimaTreeSowing</ritualBehavior>
+    <ritualTargetFilter>SelectedThing</ritualTargetFilter>
+    <ritualObligationTargetFilter>AnimusStone</ritualObligationTargetFilter>
+    <ritualOutcomeEffect>AnimaTreeSowing</ritualOutcomeEffect>
+    <playsIdeoMusic>false</playsIdeoMusic>
+    <alwaysStartAnytime>true</alwaysStartAnytime>
+  </RitualPatternDef>
+
+</Defs>
